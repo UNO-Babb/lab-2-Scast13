@@ -16,7 +16,19 @@ def main():
 
   #TODO:
   #Ask user for hours
+    hours=input("Enter Hours: ")
+    hours=int(hours) 
+
+    futureHour= currentHour + hours
+    futureHour=futureHour % 24 
+    print(futureHour) 
+ 
+ staticmethod
   #Ask user for minutes
+    mins= input("enter minutes:")
+    mins=int(minutes)
+    futureMinute=currentMinute + mins
+    Future Minute= futureMinute % 60
 
   #Calculate the time after the user-supplied time has passed.
 
